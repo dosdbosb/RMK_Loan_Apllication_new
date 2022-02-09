@@ -1,0 +1,22 @@
+.collapsedtable
+{
+    border-collapse: collapse;
+    border: 3px solid;
+}
+.table1
+{
+    margin-left: 40px;
+}
+
+.submitbutton
+{
+    margin-left: 50%;
+}
+.total
+{
+    background: linear-gradient(to bottom, rgb(255, 202, 152), rgb(255, 255, 255),rgb(193, 255, 191));
+}
+body
+{
+    margin: 2px;;
+}

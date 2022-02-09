@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Loan Application Form</title>
+        <link rel="stylesheet" type="text/css" href="css/loanapplicationstyle.css">
+        <script defer src="js/loanapplicationvalidation.js"></script>
+    </head>
+    <body>  
+        <header class="total">
+            <div id="error"></div>
+        <form action="/" method="GET" id="form">
+            <table class="table1">
+                <tr>
+                    <td> Loan Scheme : </td>
+                    <td> <input type="text" id="lscheme" name="lscheme" required></td>
+                </tr>
+                <tr>
+                    <td> Total Project Cost : </td>
+                    <td> <input type="text" id="pcost" name="pcost" required></td>
+                </tr>
+                <tr>
+                    <td> Loan Amount Required : </td>
+                    <td> <input type="text" id="lamount" name="lamount" required></td>
+                </tr>
+            </table>
+            <ol>
+                <li>ORGANIZATION DIRECTORY : 
+                    <table>
+                        <tr>
+                            <td> Name of the Organization :</td>
+                            <td> <input type="text" id="orgname" name="orgname" required></td>
+                        </tr>
+                        <tr>
+                            <td> Address :</td>
+                            <td> <input type="text" id="address" name="address" required></td>
+                        </tr>
+                        <tr>
+                            <td> Phone No. :</td>
+                            <td> <input type="number" id="phno" name="phno" required></td>
+                        </tr>
+                        <tr>
+                            <td> Registration no. of the Organization :</td>
+                            <td> <input type="number" id="regno" name="regno" required></td>
+                        </tr>
+                        <tr>
+                            <td> Name of the Bank of Organzation :</td>
+                            <td> <input type="text" id="bankname" name="bankname" required></td>
+                        </tr>
+                        <tr>
+                            <td> Account no. :</td>
+                            <td> <input type="number" id="accno" name="accno" required></td>
+                        </tr>
+                    </table>
+                </li>
+                <br>
+                <li>DETAILS OF EXECUTIVE COMMITEE MEMBERS : 
+                    <table class="collapsedtable" border="1">
+                        <tr>
+                            <th>S.no</th>
+                            <th>Name</th>
+                            <th>W/o or D/o or S/o</th>
+                            <th>Designation</th>
+                            <th>Address</th>
+                            <th>Landline.no or Mobile.no</th>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="dcme11" name="dcme11" required></td>
+                            <td> <input type="text" id="dcme12" name="dcme12" required></td>
+                            <td> <input type="text" id="dcme13" name="dcme13" required></td>
+                            <td> <input type="text" id="dcme14" name="dcme14" required></td>
+                            <td> <input type="text" id="dcme15" name="dcme15" required></td>
+                            <td> <input type="number" id="dcme16" name="dcme16" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="dcme21" name="dcme21" required></td>
+                            <td> <input type="text" id="dcme22" name="dcme22" required></td>
+                            <td> <input type="text" id="dcme23" name="dcme23" required></td>
+                            <td> <input type="text" id="dcme24" name="dcme24" required></td>
+                            <td> <input type="text" id="dcme25" name="dcme25" required></td>
+                            <td> <input type="number" id="dcme26" name="dcme26" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="dcme31" name="dcme31" required></td>
+                            <td> <input type="text" id="dcme32" name="dcme32" required></td>
+                            <td> <input type="text" id="dcme33" name="dcme33" required></td>
+                            <td> <input type="text" id="dcme34" name="dcme34" required></td>
+                            <td> <input type="text" id="dcme35" name="dcme35" required></td>
+                            <td> <input type="number" id="dcme36" name="dcme36" required></td>
+                        </tr>
+                        <br>
+                    </table>
+                </li>
+                <br>
+                <li>DETAILS OF SOCIO-ECONOMIC DEVOLOMENT PROGRAMMES CONDUCTED DURUING LAST 3 YEARS : 
+                    <table class="collapsedtable" border="1">
+                        <tr>
+                            <th>YEAR</th>
+                            <th>Name of the Programme</th>
+                            <th>Funded by</th>
+                            <th>Amount Received</th>
+                            <th>Achievements</th>
+                        </tr>
+                        <tr>
+                            <td> <input type="number" id="dsedp11" name="dsedp11" required></td>
+                            <td> <input type="text" id="dsedp12" name="dsedp12" required></td>
+                            <td> <input type="text" id="dsedp13" name="dsedp13" required></td>
+                            <td> <input type="text" id="dsedp14" name="dsedp14" required></td>
+                            <td> <input type="text" id="dsedp15" name="dsedp15" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="number" id="dsedp21" name="dsedp21" required></td>
+                            <td> <input type="text" id="dsedp22" name="dsedp22" required></td>
+                            <td> <input type="text" id="dsedp23" name="dsedp23" required></td>
+                            <td> <input type="text" id="dsedp24" name="dsedp24" required></td>
+                            <td> <input type="text" id="dsedp25" name="dsedp25" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="number" id="dsedp31" name="dsedp31" required></td>
+                            <td> <input type="text" id="dsedp32" name="dsedp32" required></td>
+                            <td> <input type="text" id="dsedp33" name="dsedp33" required></td>
+                            <td> <input type="text" id="dsedp34" name="dsedp34" required></td>
+                            <td> <input type="text" id="dsedp35" name="dsedp35" required></td>
+                        </tr>
+                    </table>
+                </li>
+                <br>
+                <li>EXPERIENCE OF THE ORGANIZATION IN CREDIT ACTIVITY DURING LAST 3 YEARS : 
+                    <table class="collapsedtable" border="1">
+                        <tr>
+                            <th>YEARS</th>
+                            <th>Amt. of loan outstanding</th>
+                            <th>Amt. of loan disbursed</th>
+                            <th>Total</th>
+                            <th>Amount due for recovery</th>
+                            <th>Amount actually recovered</th>
+                            <th>Over due</th>
+                            <th>Percentage of recovery</th>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="eoca11" name="eoca11" required></td>
+                            <td> <input type="text" id="eoca12" name="eoca12" required></td>
+                            <td> <input type="text" id="eoca13" name="eoca13" required></td>
+                            <td> <input type="text" id="eoca14" name="eoca14" required></td>
+                            <td> <input type="text" id="eoca15" name="eoca15" required></td>
+                            <td> <input type="text" id="eoca16" name="eoca16" required></td>
+                            <td> <input type="text" id="eoca17" name="eoca17" required></td>
+                            <td> <input type="text" id="eoca18" name="eoca18" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="eoca21" name="eoca21" required></td>
+                            <td> <input type="text" id="eoca22" name="eoca22" required></td>
+                            <td> <input type="text" id="eoca23" name="eoca23" required></td>
+                            <td> <input type="text" id="eoca24" name="eoca24" required></td>
+                            <td> <input type="text" id="eoca25" name="eoca25" required></td>
+                            <td> <input type="text" id="eoca26" name="eoca26" required></td>
+                            <td> <input type="text" id="eoca27" name="eoca27" required></td>
+                            <td> <input type="text" id="eoca28" name="eoca28" required></td>
+
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="eoca31" name="eoca31" required></td>
+                            <td> <input type="text" id="eoca32" name="eoca32" required></td>
+                            <td> <input type="text" id="eoca33" name="eoca33" required></td>
+                            <td> <input type="text" id="eoca34" name="eoca34" required></td>
+                            <td> <input type="text" id="eoca35" name="eoca35" required></td>
+                            <td> <input type="text" id="eoca36" name="eoca36" required></td>
+                            <td> <input type="text" id="eoca37" name="eoca37" required></td>
+                            <td> <input type="text" id="eoca38" name="eoca38" required></td3                           
+                        </tr>
+                    </table>
+                </li>
+                <br>
+                <li>PROPOSED LENDING PROGRAMME IN THE CURRENT YEAR : 
+                    <table class="collapsedtable" border="1">
+                        <tr>
+                            <th>SI.no</th>
+                            <th>Category of loan</th>
+                            <th>Name of Activities</th>
+                            <th>No. of SHG's</th>
+                            <th>No. of Borrowers</th>
+                            <th>Avg loan per Beneficiery</th>
+                            <th>Total Amount Required</th>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="plp11" name="plp11" required></td>
+                            <td> <input type="text" id="plp12" name="plp12" required></td>
+                            <td> <input type="text" id="plp13" name="plp13" required></td>
+                            <td> <input type="text" id="plp14" name="plp14" required></td>
+                            <td> <input type="text" id="plp15" name="plp15" required></td>
+                            <td> <input type="text" id="plp16" name="plp16" required></td>
+                            <td> <input type="text" id="plp17" name="plp17" required></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="plp21" name="plp21" required></td>
+                            <td> <input type="text" id="plp22" name="plp22" required></td>
+                            <td> <input type="text" id="plp23" name="plp23" required></td>
+                            <td> <input type="text" id="plp24" name="plp24" required></td>
+                            <td> <input type="text" id="plp25" name="plp25" required></td>
+                            <td> <input type="text" id="plp26" name="plp26" required></td>
+                            <td> <input type="text" id="plp27" name="plp27" required></td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="plp31" name="plp31" required></td>
+                            <td> <input type="text" id="plp32" name="plp32" required></td>
+                            <td> <input type="text" id="plp33" name="plp33" required></td>
+                            <td> <input type="text" id="plp34" name="plp34" required></td>
+                            <td> <input type="text" id="plp35" name="plp35" required></td>
+                            <td> <input type="text" id="plp36" name="plp36" required></td>
+                            <td> <input type="text" id="plp37" name="plp37" required></td>
+                        </tr>
+                        </tr>
+                    </table>
+                </li>
+                <br>
+                <li>CHECK LIST : 
+                    <br>
+                        <input type="checkbox" id="cl1" name="cl1" value="Registration Certificate">Attested copy of Registration Certificate <br>
+                        <input type="checkbox" id="cl2" name="cl2" value="MOA & Bye Laws">Attested copy of MOA & Bye Laws <br>
+                        <input type="checkbox" id="cl3" name="cl3" value="Current managing Commitee">List of Current Managing Commitee Members <br>
+                        <input type="checkbox" id="cl4" name="cl4" value="Annual Report">Annual Report for last 3 years <br>
+                        <input type="checkbox" id="cl5" name="cl5" value="Utilization Certificate">Utilization Certificate  Received for funding agencies <br>
+                        <input type="checkbox" id="cl6" name="cl6" value="DCB">DCB for Last 3 years <br>
+                        <input type="checkbox" id="cl7" name="cl7" value="NGO-Darpan">Registration Details with NGO-Darpan <br>
+                        <input type="checkbox" id="cl8" name="cl8" value="PFMS">Registration Details with PFMS <br> 
+                </li>
+            </ol>
+            <button type="submit">Submit</button>
+        </form>
+        </header>
+    </body>
+</html>

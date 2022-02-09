@@ -1,0 +1,24 @@
+body
+{
+    background: linear-gradient(to bottom, rgb(255, 202, 152), rgb(255, 255, 255),rgb(193, 255, 191));
+}
+header
+{
+    height: 100vh;
+}
+.home_button
+{
+    float: right;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-decoration:solid;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 10px solid transparent;
+}
+.home_button:hover
+{
+    background-color: rgb(126, 178, 255);
+    color:rgb(0, 0, 0);
+    transition: 0.4s ease;
+}

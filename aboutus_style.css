@@ -1,0 +1,70 @@
+.container1
+{
+    padding: 30px;
+}
+.container2
+{
+    padding: 30px;
+}
+body
+{
+    background: linear-gradient(to bottom, rgb(255, 202, 152), rgb(255, 255, 255),rgb(193, 255, 191));
+}
+header
+{
+    height: 100vh;
+}
+*
+{
+    margin:5px;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.intro
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.aims_objs
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.introhead
+{
+    text-decoration: solid;
+    text-size-adjust: 150%;
+}
+.aims_objs_head
+{
+    text-decoration: solid;
+    text-size-adjust: 150%;
+}
+.org_chart
+{
+    text-decoration: solid;
+    text-size-adjust: 150%;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.home_button
+{
+    float: right;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-decoration:solid;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 10px solid transparent;
+}
+.home_button:hover
+{
+    background-color: rgb(126, 178, 255);
+    color:rgb(0, 0, 0);
+    transition: 0.4s ease;
+}
